@@ -2,6 +2,10 @@
     object-fit: cover;
 }
 
+.container {
+ display: table; /* shrink wrap the contents */
+ margin: 0 auto; /* center via left/right margins */
+}
 .container img { border: 0;}
 
 
@@ -9,6 +13,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	.container img {width:300; height:300;}
+
 	
 
 /* Styles */
