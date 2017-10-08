@@ -53,15 +53,16 @@ AElFTkSuQmCC" rel="icon" type="image/x-icon" />
 
 
 
-	</html>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Feedback Form</title>	
 </head>
 <body>
+	
 <h1>Send Us Your Feedback!</h1>
-<form action="send_mail.php" method="post">
+<form action="send_mail.php" method="post"> 
+	<?php include 'send_mail.php';?>
 <table>
 <tr>
 <td>Email Adress:</td>
@@ -93,7 +94,6 @@ AElFTkSuQmCC" rel="icon" type="image/x-icon" />
 </div>
 </div>
 	
-	<?php include 'send_mail.php';?>
 </body>
 	
 </div>
