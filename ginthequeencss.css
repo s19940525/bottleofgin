@@ -9,7 +9,7 @@ body {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	.container img {width:300; height:300;}
-	.gif img {width:300; height:300;}
+	.gif img {width:300; height:300; margin-left:0; margin-right:0}
 	.container {margin-left:0; margin-right:0}
 
 	
