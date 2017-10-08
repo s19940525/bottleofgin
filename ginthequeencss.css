@@ -1,3 +1,9 @@
+.container {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .centered-and-cropped {
     object-fit: cover;
 }
