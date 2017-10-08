@@ -2,12 +2,6 @@
     object-fit: cover;
 }
 
-.container {
- display: table; /* shrink wrap the contents */
- margin: 0 auto; /* center via left/right margins */
-}
-.container img { border: 0;}
-
 
 
 /* Smartphones (portrait and landscape) ----------- */
