@@ -2,3 +2,7 @@
     object-fit: cover;
 }
 
+.container {
+    display: block;
+    max-width: 100%;
+    height: auto;
